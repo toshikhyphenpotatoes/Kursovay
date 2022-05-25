@@ -1,0 +1,255 @@
+html,
+body {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+$unvisib: none;
+$noRep: no-repeat;
+@media screen and(max-width:321px) {
+    html {
+        width: 32.1rem;
+        overflow-x: hidden;
+    }
+    .conteiner {
+        width: 32.1rem;
+    }
+    .header {
+        width: 32.1rem;
+        max-height: 9.9rem;
+        padding-top: 2.2rem;
+        padding-bottom: 1.1rem;
+        .header__wrap {
+            text-align: center;
+            flex-flow: column;
+            width: 26rem;
+            height: 6.6rem;
+            margin: 0 auto;
+            .unvisib {
+                display: $unvisib;
+            }
+            .header__inst {
+                display: $unvisib;
+            }
+            .header__telephone {
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+            .header__maps {
+                font-size: 1.7rem;
+                font-weight: 300;
+            }
+            .header__telephone-text span {
+                margin-bottom: 0.8rem;
+            }
+        }
+    }
+    .mainBlock {
+        margin-top: 12.5rem;
+        overflow: hidden;
+        .navBar {
+            display: $unvisib;
+        }
+        .main-display__top {
+            margin-left: 6.8rem;
+            width: 18.4rem;
+            height: 3.6rem;
+            .main-display__header {
+                font-size: 1.8rem;
+            }
+            .main-display__logo-img {
+                width: 6rem;
+                height: 3.6rem;
+                background-image: url('/images/logoMobil.png');
+                background-repeat: $noRep;
+            }
+        }
+        .main-display__center {
+            display: block;
+            padding-top: 1.5rem;
+            font-size: 2.5rem;
+            width: 32.1rem;
+            height: 25.6rem;
+            background-image: url('/images/mobileMainBack.png');
+            background-repeat: $noRep;
+            .main-display__center-left {
+                padding-top: 2.3rem;
+                width: 32.1rem;
+                .main-display__center-header {
+                    font-weight: 900;
+                    font-size: 2.5rem;
+                    line-height: 2.5rem;
+                    width: 19.3rem;
+                    height: 7.5rem;
+                }
+                .main-display__center-subheader {
+                    font-weight: 300;
+                    font-size: 2rem;
+                    line-height: 2.3rem;
+                    margin-left: 6.8rem;
+                }
+                .main-display__center-button {
+                    width: 9.3rem;
+                    height: 2.8rem;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding: 1rem 0.9rem;
+                    margin-left: 13.6rem;
+                }
+            }
+            .main-display__center-right{
+                display: $unvisib;
+            }
+            .main-display__back {
+                display: $unvisib;
+            }
+        }
+        .mats {
+            display: $unvisib;
+        }
+    }
+    .about {
+      padding-left: 5rem;
+        max-width: 32.1rem;
+        .about__items{
+            margin: 0 auto;
+        }
+        .about__wrap {
+            width: 31.9rem;
+            margin: 0 auto;
+        }
+        .about__header {
+            position: relative;
+            left: -5.5rem;
+            width: 90%;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        .background__items {
+            display: $unvisib;
+        }
+        .about__item {
+            width: 26.4rem;
+            height: 36.3rem;
+            margin-left: -9.3rem;
+
+            .about__item-img {
+                width: 100%;
+                height: 15.1rem;
+            }
+
+            .image-1 {
+                background-image: url('/images/image1mobile.png');
+                border-radius: 0;
+                background-repeat: $noRep;
+                background-size: cover;
+            }
+
+            .image-2 {
+                background-image: url('/images/image2Mobile.png');
+                border-radius: 0;
+                background-repeat: $noRep;
+                background-size: cover;
+            }
+
+            .image-3 {
+                background-image: url('/images/image3Mobile.png');
+                border-radius: 0;
+                background-repeat: $noRep;
+                background-size: cover;
+            }
+
+            .about__item-header {
+                font-size: 3rem;
+
+                .about__item-text {
+                    font-weight: 300;
+                    font-size: 1.4rem;
+                    line-height: 1.6rem;
+                    width: 22.2rem;
+                    height: 13.1rem;
+                }
+            }
+        }
+
+    }
+
+    .forComments {
+        width: 32.1rem;
+        height: 94.8rem;
+        .cards {
+            padding-top: 4.7rem;
+            .card {
+                max-width: 26.7rem;
+                max-height: 26rem;
+                .comment {
+                    width: 26.7rem;
+                    height: 7.4rem;
+                    font-weight: 300;
+                    font-size: 1.2rem;
+                    line-height: 1.4rem;
+
+                    p {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .forWords {
+                    height: 21rem;
+
+                    .words {
+                        width: 26.7rem;
+                    }
+
+                    .nameComment {
+                        width: 10rem;
+                        margin-left: 8rem;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .footer__wrap {
+        flex-flow: column;
+
+        .footer__inst,
+        .footer__telephone,
+        .footer__address {
+            margin: 0 4.5rem;
+
+            ul {
+                width: 22.4rem;
+                height: 9.1rem;
+                margin: 0 auto;
+
+                li {
+                    text-align: center;
+                }
+            }
+        }
+
+        .footer__telephone {
+            order: -1;
+
+            ul {
+                height: 5.9rem;
+            }
+        }
+
+
+        .footer__inst-img {
+            margin: 0 auto;
+        }
+
+        .footer__header {
+            text-align: center;
+        }
+
+        .footer_decor_small,
+        .footer_decor_big {
+            display: $unvisib;
+        }
+    }
+}

@@ -1,0 +1,236 @@
+html,
+body {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+@media screen and (max-width: 321px) {
+  html {
+    width: 32.1rem;
+    overflow-x: hidden;
+  }
+  .conteiner {
+    width: 32.1rem;
+  }
+  .header {
+    width: 32.1rem;
+    max-height: 9.9rem;
+    padding-top: 2.2rem;
+    padding-bottom: 1.1rem;
+  }
+  .header .header__wrap {
+    text-align: center;
+    flex-flow: column;
+    width: 26rem;
+    height: 6.6rem;
+    margin: 0 auto;
+  }
+  .header .header__wrap .unvisib {
+    display: none;
+  }
+  .header .header__wrap .header__inst {
+    display: none;
+  }
+  .header .header__wrap .header__telephone {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .header .header__wrap .header__maps {
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
+  .header .header__wrap .header__telephone-text span {
+    margin-bottom: 0.8rem;
+  }
+  .mainBlock {
+    margin-top: 12.5rem;
+    overflow: hidden;
+  }
+  .mainBlock .navBar {
+    display: none;
+  }
+  .mainBlock .main-display__top {
+    margin-left: 6.8rem;
+    width: 18.4rem;
+    height: 3.6rem;
+  }
+  .mainBlock .main-display__top .main-display__header {
+    font-size: 1.8rem;
+  }
+  .mainBlock .main-display__top .main-display__logo-img {
+    width: 6rem;
+    height: 3.6rem;
+    background-image: url("/images/logoMobil.png");
+    background-repeat: no-repeat;
+  }
+  .mainBlock .main-display__center {
+    display: block;
+    padding-top: 1.5rem;
+    font-size: 2.5rem;
+    width: 32.1rem;
+    height: 25.6rem;
+    background-image: url("/images/mobileMainBack.png");
+    background-repeat: no-repeat;
+  }
+  .mainBlock .main-display__center .main-display__center-left {
+    padding-top: 2.3rem;
+    width: 32.1rem;
+  }
+  .mainBlock .main-display__center .main-display__center-left .main-display__center-header {
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    width: 19.3rem;
+    height: 7.5rem;
+  }
+  .mainBlock .main-display__center .main-display__center-left .main-display__center-subheader {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    margin-left: 6.8rem;
+  }
+  .mainBlock .main-display__center .main-display__center-left .main-display__center-button {
+    width: 9.3rem;
+    height: 2.8rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 0.9rem;
+    margin-left: 13.6rem;
+  }
+  .mainBlock .main-display__center .main-display__center-right {
+    display: none;
+  }
+  .mainBlock .main-display__center .main-display__back {
+    display: none;
+  }
+  .mainBlock .mats {
+    display: none;
+  }
+  .about {
+    padding-left: 5rem;
+    max-width: 32.1rem;
+  }
+  .about .about__items {
+    margin: 0 auto;
+  }
+  .about .about__wrap {
+    width: 31.9rem;
+    margin: 0 auto;
+  }
+  .about .about__header {
+    position: relative;
+    left: -5.5rem;
+    width: 90%;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .about .background__items {
+    display: none;
+  }
+  .about .about__item {
+    width: 26.4rem;
+    height: 36.3rem;
+    margin-left: -9.3rem;
+  }
+  .about .about__item .about__item-img {
+    width: 100%;
+    height: 15.1rem;
+  }
+  .about .about__item .image-1 {
+    background-image: url("/images/image1mobile.png");
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about .about__item .image-2 {
+    background-image: url("/images/image2Mobile.png");
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about .about__item .image-3 {
+    background-image: url("/images/image3Mobile.png");
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about .about__item .about__item-header {
+    font-size: 3rem;
+  }
+  .about .about__item .about__item-header .about__item-text {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    width: 22.2rem;
+    height: 13.1rem;
+  }
+  .forComments {
+    width: 32.1rem;
+    height: 94.8rem;
+  }
+  .forComments .cards {
+    padding-top: 4.7rem;
+  }
+  .forComments .cards .card {
+    max-width: 26.7rem;
+    max-height: 26rem;
+  }
+  .forComments .cards .card .comment {
+    width: 26.7rem;
+    height: 7.4rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+  .forComments .cards .card .comment p {
+    font-size: 1.2rem;
+  }
+  .forComments .cards .card .forWords {
+    height: 21rem;
+  }
+  .forComments .cards .card .forWords .words {
+    width: 26.7rem;
+  }
+  .forComments .cards .card .forWords .nameComment {
+    width: 10rem;
+    margin-left: 8rem;
+  }
+  .footer__wrap {
+    flex-flow: column;
+  }
+  .footer__wrap .footer__inst,
+  .footer__wrap .footer__telephone,
+  .footer__wrap .footer__address {
+    margin: 0 4.5rem;
+  }
+  .footer__wrap .footer__inst ul,
+  .footer__wrap .footer__telephone ul,
+  .footer__wrap .footer__address ul {
+    width: 22.4rem;
+    height: 9.1rem;
+    margin: 0 auto;
+  }
+  .footer__wrap .footer__inst ul li,
+  .footer__wrap .footer__telephone ul li,
+  .footer__wrap .footer__address ul li {
+    text-align: center;
+  }
+  .footer__wrap .footer__telephone {
+    order: -1;
+  }
+  .footer__wrap .footer__telephone ul {
+    height: 5.9rem;
+  }
+  .footer__wrap .footer__inst-img {
+    margin: 0 auto;
+  }
+  .footer__wrap .footer__header {
+    text-align: center;
+  }
+  .footer__wrap .footer_decor_small,
+  .footer__wrap .footer_decor_big {
+    display: none;
+  }
+}
+/*# sourceMappingURL=mobilStyle.css.map */

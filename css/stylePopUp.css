@@ -1,0 +1,101 @@
+.popUp {
+    display: none;    
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20000;
+    backdrop-filter: blur(40px);
+}
+.popUpConteiner {
+    width: 100%;
+    height: 100%;
+}
+.popUpBody {
+    width: 118rem;
+    height: 39.2rem;
+    margin: 26.7rem auto;
+    background-color: white;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 35px rgba(212, 20, 90, 0.25);
+    border-radius: 1.5rem;
+}
+.header_popUp {
+    margin: 0 auto;
+    padding-top: 4.2rem;
+    width: 32.6rem;
+    height: 3.8rem;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+h2{
+    margin:0 ;
+}
+.mainPopUp{
+    margin-top: 3.2rem;
+}
+.littleInput{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 21.5rem;
+    padding-right: 21.5rem;
+}
+.inputArea{
+    background-color: #ffffff;
+    border: 0.1rem solid #A2A2A2;
+    border-radius: 0.9rem;
+    width: 36.2rem;
+    height: 5rem;
+    z-index: 10;
+}
+.bigInput{
+    margin: 1.7rem 21.5rem 4.2rem 21.5rem;
+}
+#bigInputArea{
+    width: 74.7rem;
+    height: 8.2rem;
+    z-index: 10;
+}
+.btnSubmit{
+    margin-left: 50rem;
+    margin-right: 51rem;
+}
+#btnSub{
+    width: 17rem;
+    height: 4.2rem;
+    text-align: center;
+    background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);;
+    border-radius: 0.9rem;
+    color: #ffffff;
+    border: none;
+    font-weight: 400;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.bigLeft{
+    background-image: url('/images/formBigLeft.png');
+    background-repeat: no-repeat;
+    width:30rem;
+    height: 33.6rem;
+    position: absolute;
+    top: 43%;
+}
+.bigRight{
+    background-image: url('/images/bigRigthVector.png');
+    background-repeat: no-repeat;
+    width:30rem;
+    height: 33.6rem;
+    position: absolute;
+    left:74.5% ;
+}
+button:hover{
+    background: linear-gradient(95.2deg, #2E3192 2.23%,  #B90160 99.51%);
+    font-size: x-large;
+    transition: font-size 3s;
+}

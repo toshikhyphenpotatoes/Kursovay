@@ -1,0 +1,65 @@
+$unvisib: none;
+$noRepeat : no-repeat;
+
+@media (min-width:768px) and (max-width:1400px) {
+    .forComments{
+        height: 94.8rem;
+        .cards {
+            flex-flow: column;
+        }
+    }
+
+    .main-display__center-header{
+        font-size: 4rem;
+    }
+
+    .main-display__back{
+        display: $unvisib;
+    }
+
+    .footer_decor_big{
+        display: $unvisib;
+    }
+
+    .about__items{
+        flex-flow: column;
+        .about__item{
+            width: 59.4rem;
+            height: fit-content;
+            margin-bottom: 3rem;
+        }
+
+        .image-1{
+            background-image: url('/images/tabletImg.png');
+            background-repeat: $noRepeat;
+            background-size: contain;
+        }
+
+        .image-2{
+            background-image: url('/images/tableImg2.png');
+            background-repeat: $noRepeat;
+            background-size: contain;
+        }
+
+        .image-3{
+            background-image: url('/images/tabletImg3.png');
+            background-repeat: $noRepeat;
+            background-size: contain;
+        }
+        
+        .about__item:not(:last-child) {
+            margin-right: 0;
+        }
+
+    }
+
+    .card-1{
+        animation: $unvisib;
+    }
+    .card-2{
+        animation: $unvisib;
+    }
+    .card-3{
+        animation: $unvisib;
+    }
+}

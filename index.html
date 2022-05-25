@@ -1,0 +1,261 @@
+<!DOCTYPE text/html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../компьютерные языки разметки данных/Лабораторная работа№9/Skeleton/normalize.css"
+        type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/stylePopUp.css" type="text/css">
+    <link rel="stylesheet" href="css/tabletStyle.css" type="text/css">
+    <link rel="stylesheet" href="css/tabletStyleFromSass.css" type="text/css">
+    <link rel="stylesheet" href="css/mobilStyle.css" type="text/css">
+    <link rel="stylesheet" href="css/mobileStylePopUp.css" type="text/css">
+    <link rel="stylesheet" href="css/intermediate.css" type="text/css">
+    <title>Evarugs в твоём городе</title>
+    <script defer src="Javascript/project.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="popUp" id="popUpWin">
+        <div class="popUpContent">
+            <div class="popUpBody" id="popUpIdBody">
+                <div class="header_popUp">
+                    <h2 class="header_popUp_text">ФОРМА ЗАЯВКИ </h2>
+                    
+                </div>
+                <div class="mainPopUp">
+                    <div class="littleInput">
+                        <div>
+                            <input type="text" placeholder="Ваше имя" class="inputArea">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Ваш Email" class="inputArea">
+                        </div>
+                    </div>
+                    <div class="bigInput">
+                        <input type="text"
+                            placeholder="Ваше сообщение (марка автомобиля, цвет ковриков, номер телефона)"
+                            class="inputArea" id="bigInputArea">
+                    </div>
+                    <div class="btnSubmit">
+                        <button type="button" id="btnSub"><span>ОТПРАВИТЬ</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="conteiner">
+            <div class="header__wrap">
+                <div class="header__telephone">
+                    <div class="header__telephone-img">
+                        <img src="images/telephone.svg" alt="telephone" class="unvisib">
+                    </div>
+                    <div class="header__telephone-text">
+                        <span>+375 29 292-29-29 (VEL)</span>
+                        <span>+375 33 333-33-33 (МТС)</span>
+                    </div>
+                </div>
+                <div class="header__maps">
+                    <div class="header__maps-img">
+                        <img src="images/maps.svg" alt="maps" class="unvisib">
+                    </div>
+                    <span>ваш город</span>
+                </div>
+                <div class="header__inst">
+                    <div class="header__inst-img">
+                        <img src="images/inst.svg" alt="inst">
+                    </div>
+                    <span>посетите нашу <br />страницу</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="mainBlock">
+        <div class="main-display">
+            <div class="container">
+                <div class="main-display__top">
+                    <div class="main-display__logo">
+                        <div class="main-display__logo-img">
+                            <!-- <img src="images/main_icon.svg" alt="main_icon"> -->
+                        </div>
+                        <div class="main-display__header">EVARUGS</div>
+                    </div>
+                    <nav class="navBar">
+                        <ul class="main-dispaly__nav" id="hrefs">
+                            <li class="anchor">
+                                <a href="#comments" id="1">отзывы</a>
+                            </li>
+                            <li class="anchor">
+                                <a href="#about" id="2">что это?</a>
+                            </li>
+                            <li class="anchor">
+                                <a href="#contacts" id="3">контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="main-display__center">
+                    <div class="main-display__center-left">
+                        <h1 class="main-display__center-header">Инновационные коврики для автомобиля</h1>
+                        <div class="main-display__center-subheader">в вашем городе</div>
+                        <button type="button" class="main-display__center-button" id="popUpOpen">ЗАКАЗАТЬ</button>
+                    </div>
+                    <div class="main-display__center-right">
+                        <div class="main-display__back">
+                            <div class="mats">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <div class="conteiner">
+                <div class="about__wrap">
+                    <h2 class="about__header">Что такое <span>EVA</span> коврики?</h2>
+                </div>
+
+                <div class="about__items" id="items">
+
+                    <div class="background__items">
+                    </div>
+
+                    <div class="about__item item__1">
+                        <div class="about__item-img image-1">
+                            <!-- <img src="images/item_1.png" alt="picture"> -->
+                        </div>
+                        <div class="about__item-description">
+                            <h3 class="about__item-header">МАТЕРИАЛ</h3>
+                            <p class="about__item-text"></p>
+                        </div>
+                    </div>
+
+
+                        <div class="about__item item__2">
+                            <div class="about__item-img image-2">
+                                <!-- <img src="images/item_2.png" alt="picture"> -->
+                            </div>
+                            <div class="about__item-description">
+                                <h3 class="about__item-header">ОТЛИЧИЯ</h3>
+                                <p class="about__item-text"></p>
+                            </div>
+                        </div>
+
+
+                    <div class="about__item item-3" >
+                        <div class="about__item-img image-3">
+                            <!-- <img src="images/item_3.png" alt="picture"> -->
+                        </div>
+                        <div class="about__item-description">
+                            <h3 class="about__item-header">РАСЦВЕТКА</h3>
+                            <p class="about__item-text"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="forComments" id="comments">
+        <div class="wrapper">
+            <div class="cards">
+
+                <div class="card card-1">
+                    <div class="forWords">
+                        <div class="images first circle"></div>
+                        <section class="words">
+                            <div class="comment">
+                                <p>Супер!!! Качество на высшем уровне!!!Больше вам заказов! Большое спасибо!!</p>
+                            </div>
+                            <div class="nameComment">
+                                <p>Константин В.</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="card card-2">
+                    <div class="forWords">
+                        <div class="images second circle"></div>
+                        <section class="words">
+                            <div class="comment">
+                                <p>Покупала у ребят коврики для Хундай солярис в подарок молодому человеку. Все очень
+                                    понравилось. Буду советовать только вас.</p>
+                            </div>
+                            <div class="nameComment">
+                                <p>Вера К.</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="card card-3">
+                    <div class="forWords">
+                        <div class="images third circle"></div>
+                        <section class="words">
+                            <div class="comment">
+                                <p>Буду советовать вас всем знакомым! Лучший сервис и великолепное качество продукции!
+                                    Удачи вам!!!
+                                </p>
+                            </div>
+                            <div class="nameComment">
+                                <p>Валерий М.</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__inst">
+                    <h3 class="footer__header">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
+                    <div class="footer__inst-img">
+                        <img src="images/color_inst_icon.svg" alt="icon_inst">
+                    </div>
+                </div>
+                <div class="footer__telephone">
+                    <h3 class="footer__header">КОНТАКТНЫЕ ТЕЛЕФОНЫ</h3>
+                    <ul>
+                        <li>+375 29 292-29-29 (VEL)</li>
+                        <li>+375 33 333-33-33 (МТС)</li>
+                    </ul>
+                </div>
+                <div class="footer__address">
+                    <h3 class="footer__header">О НАС</h3>
+                    <ul>
+                        <li>Индивидуальное изготовление <br />EVA ковриков для вашего<br /> автомобиля</li>
+                        <li class="lastUlLI">ваш город</li>
+                    </ul>
+                </div>
+                <div class="footer_decor_small">
+                    <img src="images/octagon_small_footer.svg" alt="decor_img">
+                </div>
+                <div class="footer_decor_big">
+                    <img src="images/octagon_big_footer.svg" alt="decor_img">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

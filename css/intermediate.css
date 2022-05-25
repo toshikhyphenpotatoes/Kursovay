@@ -1,0 +1,53 @@
+@media (min-width: 768px) and (max-width: 1400px) {
+  .forComments {
+    height: 94.8rem;
+  }
+  .forComments .cards {
+    flex-flow: column;
+  }
+  .main-display__center-header {
+    font-size: 4rem;
+  }
+  .main-display__back {
+    display: none;
+  }
+  .footer_decor_big {
+    display: none;
+  }
+  .about__items {
+    flex-flow: column;
+  }
+  .about__items .about__item {
+    width: 59.4rem;
+    height: fit-content;
+    margin-bottom: 3rem;
+  }
+  .about__items .image-1 {
+    background-image: url("/images/tabletImg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .about__items .image-2 {
+    background-image: url("/images/tableImg2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .about__items .image-3 {
+    background-image: url("/images/tabletImg3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .about__items .about__item:not(:last-child) {
+    margin-right: 0;
+  }
+  .card-1 {
+    animation: none;
+  }
+  .card-2 {
+    animation: none;
+  }
+  .card-3 {
+    animation: none;
+  }
+}
+/*# sourceMappingURL=intermediate.css.map */

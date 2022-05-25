@@ -1,0 +1,180 @@
+
+html,
+body {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+@media screen and (max-width:768px) {
+    html {
+        width: 76.8rem;
+        overflow-x: hidden;
+    }
+
+    .header {
+        width: 76.8rem;
+        font-size: 1.2rem;
+    }
+
+    .conteiner {
+        width: 76.8rem;
+    }
+
+    .header__telephone-text {
+        display: flex;
+        flex-flow: column;
+        line-height: 1.2rem;
+    }
+
+    .main-dispaly__nav {
+        display: none;
+    }
+
+    .mats {
+        width: 36.8rem;
+        height: 47.3rem;
+        background-image: url("/images/коврф\ 1.png");
+        position: absolute;
+        top: -3.8rem;
+        left: 12.4rem;
+    }
+
+    main {
+        margin-top: 13.1rem;
+        overflow: hidden;
+    }
+
+    .main-display__center-left {
+        padding-top: 6.1rem;
+    }
+
+    .main-display__top {
+        margin-right: 6.6rem;
+        margin-left: 6.6rem;
+    }
+
+    .main-display__center-header,
+    .main-display__center-subheader,
+    .main-display__center-button {
+        margin-left: 6.6rem;
+    }
+
+    .main-display__center-header {
+        max-width: 44rem;
+        font-size: 4rem;
+    }
+
+    .main-display__back {
+        width: 51.5rem;
+        height: 36.8rem;
+        background-image: url("/images/подложка\ 1.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 16.9rem;
+        left: 24.3rem;
+    }
+
+    .about {
+        padding: 5rem;
+        overflow: hidden;
+    }
+
+    .about:befor {
+        background-image: url('/images/для\ фона\ планшет\ about-top.png');
+        background-repeat: no-repeat;
+        width: 23.2rem;
+        height: 29rem;
+    }
+
+    .about__items {
+        flex-flow: column;
+    }
+    .background__items{
+        display: none;
+    }
+
+    .about__item {
+        width: 59.4rem;
+        height: 32.5rem;
+        box-shadow: 0.2rem 0.2rem 4rem pink;
+        border-radius: 0.9rem;
+        overflow: hidden;
+        background-color: #ffffff;
+        margin-bottom: 6.1rem;
+        margin-left: -8.6rem;
+    }
+
+    .about__item-img {
+        width: 62.6rem;
+        height: 18.9rem;
+        margin-bottom: 1rem;
+        margin-top: -1.3rem;
+        border-radius: 1rem;
+        padding: 0rem;
+    }
+
+    .image-1 {
+        background-image: url('/images/tabletImg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .image-2 {
+        background-image: url('/images/tableImg2.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .image-3 {
+        background-image: url('/images/tabletImg3.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .cards {
+        flex-flow: column;
+    }
+
+    .card-1{
+        animation: none;
+    }
+    .card-2{
+        animation: none;
+    }
+    .card-3{
+        animation: none;
+    }
+
+
+    .forComments {
+        height: 94.8rem;
+        margin-top: 12.4rem;
+    }
+
+    .card {
+        width: 53.6rem;
+        height: 18.7rem;
+        margin-bottom: 10.9rem;
+    }
+
+    .footer__wrap {
+        margin-top: 9.5rem;
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .about__header {
+        text-align: center;
+        width: 60.3rem;
+        margin: 0 0 4.8rem 3.5rem;
+    }
+    .footer{
+        overflow: hidden;
+       
+    }
+    .footer_wrap{
+        margin: 10rem;
+    }
+
+}
